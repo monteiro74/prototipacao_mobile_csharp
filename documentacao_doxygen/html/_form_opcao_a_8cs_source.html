@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Prototipação de telas em Windows Forms CSharp: Código-Fonte de D:/Prototipo_navegacao_entre_telas/WindowsFormsApp2/FormOpcaoA.cs</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Prototipação de telas em Windows Forms CSharp<span id="projectnumber">&#160;1</span>
+   </div>
+   <div id="projectbrief">Csharp prototipação de telas</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_form_opcao_a_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrada</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">FormOpcaoA.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_form_opcao_a_8cs.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>System;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">using </span>System.Collections.Generic;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">using </span>System.ComponentModel;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">using </span>System.Data;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">using </span>System.Drawing;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">using </span>System.Linq;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">using </span>System.Text;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">using </span>System.Threading.Tasks;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">using </span>System.Windows.Forms;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_windows_forms_app2.html">WindowsFormsApp2</a></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_opcao_a.html">   16</a></span>    <span class="keyword">public</span> <span class="keyword">partial class </span><a class="code hl_class" href="class_windows_forms_app2_1_1_form_opcao_a.html">FormOpcaoA</a> : Form</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_opcao_a.html#a16270d0da419e95fa33a7fe581ccb0d8">   18</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_opcao_a.html#a16270d0da419e95fa33a7fe581ccb0d8">FormOpcaoA</a>()</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            <a class="code hl_function" href="class_windows_forms_app2_1_1_form_opcao_a.html#a0bfe22de6e7f0459038c452cd75dbd22">InitializeComponent</a>();</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        }</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_opcao_a.html#a7646c836c6e0956e98f0bea5f3789d36">   24</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_opcao_a.html#a7646c836c6e0956e98f0bea5f3789d36">FormOpcaoA_FormClosing</a>(<span class="keywordtype">object</span> sender, FormClosingEventArgs e)</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_opcao_a.html#a81a6e055270eece97d42154e640be385">   33</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_opcao_a.html#a81a6e055270eece97d42154e640be385">Button_Voltar_opcaoA_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        {</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            Close();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        }</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_opcao_a.html#a4243bb2e87e792624fed33eda1a0ed45">   44</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_opcao_a.html#a4243bb2e87e792624fed33eda1a0ed45">materialFlatButton1_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        {</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keywordtype">string</span> message = <span class="stringliteral">&quot;Exemplo de caixa de mensagem&quot;</span>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            <span class="keywordtype">string</span> title = <span class="stringliteral">&quot;Exemplo 2&quot;</span>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            MessageBox.Show(message, title);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_opcao_a.html#a8a8b06686a0ef6cf70646699c55c43f8">   55</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_opcao_a.html#a8a8b06686a0ef6cf70646699c55c43f8">materialRaisedButton1_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        {</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            <span class="keywordtype">string</span> message = <span class="stringliteral">&quot;Exemplo de caixa de mensagem&quot;</span>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            <span class="keywordtype">string</span> title = <span class="stringliteral">&quot;Exemplo 3&quot;</span>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            MessageBox.Show(message, title);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        }</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_opcao_a.html#a563b81036c13b3dacc637671f0b97d6e">   66</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_opcao_a.html#a563b81036c13b3dacc637671f0b97d6e">FormOpcaoA_Load</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        {</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            this.Height = 695;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>            this.Width = 362;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        }</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    }</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>}</div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_opcao_a_html"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_opcao_a.html">WindowsFormsApp2.FormOpcaoA</a></div><div class="ttdef"><b>Definition:</b> <a href="_form_opcao_a_8cs_source.html#l00016">FormOpcaoA.cs:17</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_opcao_a_html_a0bfe22de6e7f0459038c452cd75dbd22"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_opcao_a.html#a0bfe22de6e7f0459038c452cd75dbd22">WindowsFormsApp2.FormOpcaoA.InitializeComponent</a></div><div class="ttdeci">void InitializeComponent()</div><div class="ttdoc">Required method for Designer support - do not modify the contents of this method with the code editor...</div><div class="ttdef"><b>Definition:</b> <a href="_form_opcao_a_8_designer_8cs_source.html#l00029">FormOpcaoA.Designer.cs:29</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_opcao_a_html_a16270d0da419e95fa33a7fe581ccb0d8"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_opcao_a.html#a16270d0da419e95fa33a7fe581ccb0d8">WindowsFormsApp2.FormOpcaoA.FormOpcaoA</a></div><div class="ttdeci">FormOpcaoA()</div><div class="ttdef"><b>Definition:</b> <a href="_form_opcao_a_8cs_source.html#l00018">FormOpcaoA.cs:18</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_opcao_a_html_a4243bb2e87e792624fed33eda1a0ed45"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_opcao_a.html#a4243bb2e87e792624fed33eda1a0ed45">WindowsFormsApp2.FormOpcaoA.materialFlatButton1_Click</a></div><div class="ttdeci">void materialFlatButton1_Click(object sender, EventArgs e)</div><div class="ttdef"><b>Definition:</b> <a href="_form_opcao_a_8cs_source.html#l00044">FormOpcaoA.cs:44</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_opcao_a_html_a563b81036c13b3dacc637671f0b97d6e"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_opcao_a.html#a563b81036c13b3dacc637671f0b97d6e">WindowsFormsApp2.FormOpcaoA.FormOpcaoA_Load</a></div><div class="ttdeci">void FormOpcaoA_Load(object sender, EventArgs e)</div><div class="ttdef"><b>Definition:</b> <a href="_form_opcao_a_8cs_source.html#l00066">FormOpcaoA.cs:66</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_opcao_a_html_a7646c836c6e0956e98f0bea5f3789d36"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_opcao_a.html#a7646c836c6e0956e98f0bea5f3789d36">WindowsFormsApp2.FormOpcaoA.FormOpcaoA_FormClosing</a></div><div class="ttdeci">void FormOpcaoA_FormClosing(object sender, FormClosingEventArgs e)</div><div class="ttdef"><b>Definition:</b> <a href="_form_opcao_a_8cs_source.html#l00024">FormOpcaoA.cs:24</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_opcao_a_html_a81a6e055270eece97d42154e640be385"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_opcao_a.html#a81a6e055270eece97d42154e640be385">WindowsFormsApp2.FormOpcaoA.Button_Voltar_opcaoA_Click</a></div><div class="ttdeci">void Button_Voltar_opcaoA_Click(object sender, EventArgs e)</div><div class="ttdef"><b>Definition:</b> <a href="_form_opcao_a_8cs_source.html#l00033">FormOpcaoA.cs:33</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_opcao_a_html_a8a8b06686a0ef6cf70646699c55c43f8"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_opcao_a.html#a8a8b06686a0ef6cf70646699c55c43f8">WindowsFormsApp2.FormOpcaoA.materialRaisedButton1_Click</a></div><div class="ttdeci">void materialRaisedButton1_Click(object sender, EventArgs e)</div><div class="ttdef"><b>Definition:</b> <a href="_form_opcao_a_8cs_source.html#l00055">FormOpcaoA.cs:55</a></div></div>
+<div class="ttc" id="anamespace_windows_forms_app2_html"><div class="ttname"><a href="namespace_windows_forms_app2.html">WindowsFormsApp2</a></div><div class="ttdef"><b>Definition:</b> <a href="_form_b1_8cs_source.html#l00011">FormB1.cs:12</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d7139d0750a4e1a967d4b55f007e5c6c.html">WindowsFormsApp2</a></li><li class="navelem"><a class="el" href="_form_opcao_a_8cs.html">FormOpcaoA.cs</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

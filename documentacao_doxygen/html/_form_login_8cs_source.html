@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Prototipação de telas em Windows Forms CSharp: Código-Fonte de D:/Prototipo_navegacao_entre_telas/WindowsFormsApp2/FormLogin.cs</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Prototipação de telas em Windows Forms CSharp<span id="projectnumber">&#160;1</span>
+   </div>
+   <div id="projectbrief">Csharp prototipação de telas</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_form_login_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrada</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">FormLogin.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_form_login_8cs.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">using </span>System;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">using </span>System.Collections.Generic;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">using </span>System.ComponentModel;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">using </span>System.Data;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">using </span>System.Drawing;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">using </span>System.Linq;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">using </span>System.Text;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">using </span>System.Threading.Tasks;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">using </span>System.Windows.Forms;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_windows_forms_app2.html">WindowsFormsApp2</a></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_login.html">   17</a></span>    <span class="keyword">public</span> <span class="keyword">partial class </span><a class="code hl_class" href="class_windows_forms_app2_1_1_form_login.html">FormLogin</a> : Form</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    {</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_login.html#aa88b84d127470e894bcb0952a839d610">   19</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_login.html#aa88b84d127470e894bcb0952a839d610">FormLogin</a>()</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <a class="code hl_function" href="class_windows_forms_app2_1_1_form_login.html#ae9d8c63be387f622278a82ec812da0cc">InitializeComponent</a>();</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        }</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_login.html#aed91abd7e5310fe592f7c67785cbd570">   26</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_login.html#aed91abd7e5310fe592f7c67785cbd570">Sum</a>(<span class="keywordtype">int</span> num1, <span class="keywordtype">int</span> num2)</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            <span class="keywordtype">int</span> total;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            total = num1 + num2;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <span class="keywordflow">return</span> total;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_login.html#ac5a6b437d21d583164f6ee7f192b3d0f">   38</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_login.html#ac5a6b437d21d583164f6ee7f192b3d0f">ButtonSair_loging_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        {   </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            Close();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        }</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_login.html#a092ad356e132e33a74485ba3c9171472">   47</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_login.html#a092ad356e132e33a74485ba3c9171472">Form1_Load</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        {      </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            <a class="code hl_variable" href="class_windows_forms_app2_1_1_form_login.html#a46fd16a30939dff3dda0fb88851cd289">textBox_userName</a>.Focus();</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            this.Height = 695;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            this.Width = 362;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        }</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_login.html#a22f9427cb99b76f77dcc800a8f9c8675">   60</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_login.html#a22f9427cb99b76f77dcc800a8f9c8675">ButtonLogin_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            <span class="comment">//  Exemplo de comentário 1</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            <span class="comment">/*  Exemplo de comentário 3  */</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>            <a class="code hl_class" href="class_windows_forms_app2_1_1_form_main.html">FormMain</a> formMain = <span class="keyword">new</span> <a class="code hl_class" href="class_windows_forms_app2_1_1_form_main.html">FormMain</a>();</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            formMain.Show();</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            this.Hide();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        }</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="class_windows_forms_app2_1_1_form_login.html#a867ce9ce085cdae9d79a26df298f3567">   78</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_windows_forms_app2_1_1_form_login.html#a867ce9ce085cdae9d79a26df298f3567">FormLogin_FormClosing</a>(<span class="keywordtype">object</span> sender, FormClosingEventArgs e)</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        {</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            Application.Exit();</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        }</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    }</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>}</div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_login_html"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_login.html">WindowsFormsApp2.FormLogin</a></div><div class="ttdef"><b>Definition:</b> <a href="_form_login_8cs_source.html#l00017">FormLogin.cs:18</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_login_html_a092ad356e132e33a74485ba3c9171472"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_login.html#a092ad356e132e33a74485ba3c9171472">WindowsFormsApp2.FormLogin.Form1_Load</a></div><div class="ttdeci">void Form1_Load(object sender, EventArgs e)</div><div class="ttdef"><b>Definition:</b> <a href="_form_login_8cs_source.html#l00047">FormLogin.cs:47</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_login_html_a22f9427cb99b76f77dcc800a8f9c8675"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_login.html#a22f9427cb99b76f77dcc800a8f9c8675">WindowsFormsApp2.FormLogin.ButtonLogin_Click</a></div><div class="ttdeci">void ButtonLogin_Click(object sender, EventArgs e)</div><div class="ttdef"><b>Definition:</b> <a href="_form_login_8cs_source.html#l00060">FormLogin.cs:60</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_login_html_a46fd16a30939dff3dda0fb88851cd289"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_login.html#a46fd16a30939dff3dda0fb88851cd289">WindowsFormsApp2.FormLogin.textBox_userName</a></div><div class="ttdeci">System.Windows.Forms.TextBox textBox_userName</div><div class="ttdef"><b>Definition:</b> <a href="_form_login_8_designer_8cs_source.html#l00198">FormLogin.Designer.cs:198</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_login_html_a867ce9ce085cdae9d79a26df298f3567"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_login.html#a867ce9ce085cdae9d79a26df298f3567">WindowsFormsApp2.FormLogin.FormLogin_FormClosing</a></div><div class="ttdeci">void FormLogin_FormClosing(object sender, FormClosingEventArgs e)</div><div class="ttdef"><b>Definition:</b> <a href="_form_login_8cs_source.html#l00078">FormLogin.cs:78</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_login_html_aa88b84d127470e894bcb0952a839d610"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_login.html#aa88b84d127470e894bcb0952a839d610">WindowsFormsApp2.FormLogin.FormLogin</a></div><div class="ttdeci">FormLogin()</div><div class="ttdef"><b>Definition:</b> <a href="_form_login_8cs_source.html#l00019">FormLogin.cs:19</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_login_html_ac5a6b437d21d583164f6ee7f192b3d0f"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_login.html#ac5a6b437d21d583164f6ee7f192b3d0f">WindowsFormsApp2.FormLogin.ButtonSair_loging_Click</a></div><div class="ttdeci">void ButtonSair_loging_Click(object sender, EventArgs e)</div><div class="ttdef"><b>Definition:</b> <a href="_form_login_8cs_source.html#l00038">FormLogin.cs:38</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_login_html_ae9d8c63be387f622278a82ec812da0cc"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_login.html#ae9d8c63be387f622278a82ec812da0cc">WindowsFormsApp2.FormLogin.InitializeComponent</a></div><div class="ttdeci">void InitializeComponent()</div><div class="ttdoc">Método necessário para suporte ao Designer - não modifique o conteúdo deste método com o editor de có...</div><div class="ttdef"><b>Definition:</b> <a href="_form_login_8_designer_8cs_source.html#l00029">FormLogin.Designer.cs:29</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_login_html_aed91abd7e5310fe592f7c67785cbd570"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_login.html#aed91abd7e5310fe592f7c67785cbd570">WindowsFormsApp2.FormLogin.Sum</a></div><div class="ttdeci">static int Sum(int num1, int num2)</div><div class="ttdef"><b>Definition:</b> <a href="_form_login_8cs_source.html#l00026">FormLogin.cs:26</a></div></div>
+<div class="ttc" id="aclass_windows_forms_app2_1_1_form_main_html"><div class="ttname"><a href="class_windows_forms_app2_1_1_form_main.html">WindowsFormsApp2.FormMain</a></div><div class="ttdef"><b>Definition:</b> <a href="_form_main_8cs_source.html#l00018">FormMain.cs:19</a></div></div>
+<div class="ttc" id="anamespace_windows_forms_app2_html"><div class="ttname"><a href="namespace_windows_forms_app2.html">WindowsFormsApp2</a></div><div class="ttdef"><b>Definition:</b> <a href="_form_b1_8cs_source.html#l00011">FormB1.cs:12</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d7139d0750a4e1a967d4b55f007e5c6c.html">WindowsFormsApp2</a></li><li class="navelem"><a class="el" href="_form_login_8cs.html">FormLogin.cs</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>
