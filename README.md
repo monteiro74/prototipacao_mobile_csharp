@@ -12,7 +12,7 @@ Descrição de arquivos:
 4. imagem_fundo_cel.jpg é uma figura utilizada como fundo dos formulários, a fonte da figura é: 
 https://pixabay.com/pt/vectors/andr%c3%b3ide-nexus-5-telefone-1294370/, os créditos desta figura são de: OpenClipart-Vectors.
 5. Foi utilizado o MaterialSkin versão 0.2.2 baixado via NuGet, existe uma atualização aqui: https://www.nuget.org/packages/MaterialSkin.2/
-6. Arquivos de projeto e códigos fonte:
+6. WindowsFormsSimulacaoAppMobile_v1.zip contém o arquivo de solução e códigos fontes em Csharp para ser aberto no Visual Studio.
 
 
 Licença Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) : [cc-by-nc-sa-image]: https://creativecommons.org/licenses/by-nc-sa/4.0/
