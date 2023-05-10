@@ -1,7 +1,7 @@
 # prototipacao_mobile_csharp
-Prototipação de app com windows forms e csharp
+Prototipação de app com windows forms usando csharp.
 
-## Projeto para se utilizar o windows forms com csharp para prototipor aplicações mobile (caso o usuário não queira prototipar usando o xamarin).
+## Projeto para modelagem de app via windows forms com cSharp (idela para os devs que não queiram prototipar usando o Xamarin).
 
 
 Descrição de arquivos:
