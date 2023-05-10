@@ -14,7 +14,7 @@ https://pixabay.com/pt/vectors/andr%c3%b3ide-nexus-5-telefone-1294370/, os créd
 5. Foi utilizado o MaterialSkin versão 0.2.2 baixado via NuGet, existe uma atualização aqui: https://www.nuget.org/packages/MaterialSkin.2/
 
 
-Licença: [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+Licença: [cc-by-nc-sa-image]: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 Visualização do projeto:
 
