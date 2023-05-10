@@ -10,6 +10,4 @@ Descrição de arquivos:
 2. Diagrama_v1.png é identico ao PDF, no formato PNG (para ser utilizado na página principal do projeto).
 3. refman.pdf arquivo gerado pelo Doxygen via Doxywizard, é a documentação automática do projeto.
 4. imagem_fundo_cel.jpg é uma figura utilizada como fundo dos formulários, a fonte da figura é: [go](https://pixabay.com/pt/vectors/andr%c3%b3ide-nexus-5-telefone-1294370/){:target="_blank"}, os créditos desta figura são de: OpenClipart-Vectors.
-5. [Stackoverflow The Key](https://stackoverflow.blog/2021/03/31/the-key-copy-paste/ target="_blank")
-
-<a href="https://pixabay.com/pt/vectors/andr%c3%b3ide-nexus-5-telefone-1294370/" target="_blank">example</a>
+5. Foi utilizado o MaterialSkin versão 0.2.2 baixado via NuGet, existe uma atualização aqui: https://www.nuget.org/packages/MaterialSkin.2/
