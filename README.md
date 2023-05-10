@@ -9,4 +9,5 @@ Descrição de arquivos:
 1. Diagrama_v1.pdf contém um arquivo PDF com um esquema hierarquico de navegação entre as telas.
 2. Diagrama_v1.png é identico ao PDF, no formato PNG (para ser utilizado na página principal do projeto).
 3. refman.pdf arquivo gerado pelo Doxygen via Doxywizard, é a documentação automática do projeto.
-4. 
+4. imagem_fundo_cel.jpg é uma figura utilizada como fundo dos formulários, a fonte da figura é: https://pixabay.com/pt/vectors/andr%c3%b3ide-nexus-5-telefone-1294370/, os créditos desta figura são de: OpenClipart-Vectors.
+5. 
