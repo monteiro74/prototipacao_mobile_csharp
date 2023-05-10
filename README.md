@@ -5,7 +5,7 @@ Prototipação de app com windows forms usando csharp.
 
 Objetivos: Permitir que programadores possam realizar um rápida prototipação de uma aplicação mobile, usando a linguagem CSharp via Windows Forms, caso não desejem ou possam utilizar o Xamarin forms ou outra tecnologia (ou estejam usando Monodevelop ou Sharpdevelop).
 
-Atenção: O projeto pronto é apenas um "boneco" (protótipo) para que se possa discutir idéias de uma futura app mobile, este código (.EXE) não roda em um cel Android/IOS.
+Atenção: O projeto pronto é apenas um "boneco" (protótipo) para que se possam discutir idéias de uma futura app mobile, este código (.EXE) não roda em um cel Android/IOS.
 
 Detalhes: Este exemplo realiza chamadas simples simples entre formulários Windows Forms na linguagem C# (C Sharp). Em uma dos formulários (FormOpcaoA) são utilizados os controles Material. E no formulário FormB1 existe um componente webview que carrega uma URL (no exemplo foi carregada a wikipédia). Existem também alguns exemplos do uso de MessageBox em vários botões do projeto. O login é fictício pois o objetivo do projeto é apenas a navegação entre telas.
 
