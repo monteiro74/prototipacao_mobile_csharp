@@ -5,4 +5,5 @@ Prototipação de app com windows forms usando csharp.
 
 
 Descrição de arquivos:
-1. O Diagrama_v1.pdf contém um arquivo PDF com um esquema hierarquico de navegação entre as telas.
+1. O arquivo Diagrama_v1.pdf contém um arquivo PDF com um esquema hierarquico de navegação entre as telas.
+2. O arquivo Diagrama_v1.png é identico ao PDF, no formato PNG (para ser utilizado na página principal do projeto).
