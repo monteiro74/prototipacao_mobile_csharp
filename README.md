@@ -3,7 +3,7 @@ Prototipação de app com windows forms usando csharp.
 
 ## Projeto para modelagem de app via MS Windows Forms com CSharp (projeto recomendado para Devs que não queiram prototipar usando o Xamarin).
 
-Objetivos: Permitir que programadores possam realizar um rápida prototipação de uma aplicação mobile, usando a linguagem CSharp via Windows Forms, caso não desejem ou possam utilizar o Xamarin forms ou outra tecnologia (ou estejam usando Monodevelop ou Sharpdevelop).
+Objetivos: Permitir que programadores possam realizar um rápida prototipação de uma aplicação mobile, usando a linguagem CSharp via Windows Forms, caso não desejem ou possam utilizar o Xamarin forms ou outra tecnologia (como o Monodevelop e/ou Sharpdevelop).
 
 Atenção: O projeto pronto é apenas um "boneco" (protótipo) para que se possam discutir idéias de uma futura app mobile, este código (.EXE) não roda em um cel Android/IOS.
 
