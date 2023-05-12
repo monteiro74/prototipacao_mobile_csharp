@@ -1,4 +1,8 @@
-﻿using System;
+﻿/**
+*   Autor: Prof. Dr. Monteiro, Emiliano S.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,9 +23,9 @@ namespace WindowsFormsApp2
 
         private void button_Voltar_FormB1_Click(object sender, EventArgs e)
         {
-            /**
-         ** Comentário: Fecha o formulário B
-         **/
+          /**
+            ** Comentário: Fecha o formulário B
+          **/
 
             this.Close();
         }

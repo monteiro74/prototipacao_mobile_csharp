@@ -1,4 +1,7 @@
-﻿namespace WindowsFormsApp2
+﻿/**
+*   Autor: Prof. Dr. Monteiro, Emiliano S.
+*/
+namespace WindowsFormsApp2
 {
     partial class FormMain
     {
