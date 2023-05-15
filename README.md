@@ -5,14 +5,14 @@ Prototipação de app com windows forms usando csharp.
 
 Objetivos: Permitir que programadores possam realizar um rápida prototipação de uma aplicação mobile, usando a linguagem CSharp via Windows Forms, caso não desejem ou possam utilizar o Xamarin forms ou outra tecnologia (como o Monodevelop e/ou Sharpdevelop).
 
-Atenção: O projeto pronto é apenas um "boneco" (protótipo) para que se possam discutir idéias de uma futura app mobile, este código (.EXE) não roda em um cel Android/IOS.
+Atenção: O projeto pronto é apenas um "boneco" (protótipo) para que se possam discutir idéias de uma futura app mobile, este código (.EXE) para Windows (não roda em um cel Android/IOS).
 
-Detalhes: Este exemplo realiza chamadas simples simples entre formulários Windows Forms na linguagem C# (C Sharp). Em uma dos formulários (FormOpcaoA) são utilizados os controles Material. E no formulário FormB1 existe um componente webview que carrega uma URL (no exemplo foi carregada a wikipédia). Existem também alguns exemplos do uso de MessageBox em vários botões do projeto. O login é fictício pois o objetivo do projeto é apenas a navegação entre telas.
+Detalhes: Este exemplo realiza chamadas simples simples entre formulários Windows Forms na linguagem C# (C Sharp). Em uma dos formulários (FormOpcaoA) são utilizados os controles Material. E no formulário FormB1 existe um componente webview que carrega uma URL (no exemplo foi carregada a wikipedia). Existem também alguns exemplos do uso de MessageBox em vários botões do projeto. O login é fictício pois o objetivo do projeto é apenas a navegação entre telas.
 
 Descrição de arquivos:
 1. Diagrama_v1.pdf contém um arquivo PDF com um esquema hierarquico de navegação entre as telas.
 2. Diagrama_v1.png é identico ao PDF, no formato PNG (para ser utilizado na página principal do projeto).
-3. refman.pdf arquivo gerado pelo Doxygen via Doxywizard, é a documentação automática do projeto.. A documentação gerada automaticamente pelo doxygen esta na url: https://www.messier83.com.br/prototipacao_mobile_csharp/documentacao/index.html
+3. refman.pdf arquivo gerado pelo Doxygen via Doxywizard, é a documentação automática do projeto. A documentação gerada automaticamente pelo doxygen esta na url: https://www.messier83.com.br/prototipacao_mobile_csharp/documentacao/index.html
 4. A imagem imagem_fundo_cel.jpg é uma figura utilizada como fundo dos formulários, a fonte da figura é: 
 https://pixabay.com/pt/vectors/andr%c3%b3ide-nexus-5-telefone-1294370/, os créditos desta figura são de: OpenClipart-Vectors. A imagem imagem_fundo_cel.png esta localizado no projeto em WindowsFormsApp2/Properties
 /imagens/ sob o nome de android1.png
