@@ -47,3 +47,10 @@ Visualização do projeto:
 
 ![alt text](https://github.com/monteiro74/prototipacao_mobile_csharp/blob/main/Diagrama_v1.png)
 
+
+### Projetos para testes e experimentar com design/prototipação:
+* https://github.com/monteiro74/prototipacao_flutterflow1
+* https://github.com/monteiro74/prototipacao_mobile_evoluspencil
+* https://github.com/monteiro74/prototipacao_mobile_csharp
+* https://github.com/monteiro74/prototipacao_mobile_DelphiFMX
+
