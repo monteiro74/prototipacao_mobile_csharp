@@ -57,6 +57,14 @@ Visualização do projeto:
 * https://github.com/monteiro74/prototipacao_mobile_DelphiFMX
 
 
+---
+# Estatísticas
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=monteiro74&theme=dark)](https://git.io/streak-stats)
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=monteiro74)](https://github.com/monteiro74/github-readme-stats)
+
+
 Histórico de atualizações nos repositórios do Prof. Dr. Monteiro:<br>
 [![teste](https://github-readme-activity-graph.vercel.app/graph?username=monteiro74&theme=github-compact)](https://github.com/monteiro74/prototipacao_mobile_csharp)
 
