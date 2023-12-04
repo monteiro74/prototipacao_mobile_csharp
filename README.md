@@ -47,7 +47,9 @@ Visualização do projeto:
 
 ![https://github.com/monteiro74/prototipacao_mobile_csharp/blob/main/Diagrama_v1.png](https://github.com/monteiro74/prototipacao_mobile_csharp/blob/main/Diagrama_v1.png)
 
-Visualização da documentação gerada pelo Doxygen:
+
+Resultado do processamento do doxygen é a seguinte visualização produzida em html como documentação deste projeto:
+
 ![https://github.com/monteiro74/prototipacao_mobile_csharp/blob/main/doxygen_csharp.png](https://github.com/monteiro74/prototipacao_mobile_csharp/blob/main/doxygen_csharp.png)
 
 
