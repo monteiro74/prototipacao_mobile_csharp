@@ -48,7 +48,7 @@ Visualização do projeto:
 ![https://github.com/monteiro74/prototipacao_mobile_csharp/blob/main/Diagrama_v1.png](https://github.com/monteiro74/prototipacao_mobile_csharp/blob/main/Diagrama_v1.png)
 
 Visualização da documentação gerada pelo Doxygen:
-[https://github.com/monteiro74/prototipacao_mobile_csharp/blob/main/doxygen_csharp.png](https://github.com/monteiro74/prototipacao_mobile_csharp/blob/main/doxygen_csharp.png)
+![https://github.com/monteiro74/prototipacao_mobile_csharp/blob/main/doxygen_csharp.png](https://github.com/monteiro74/prototipacao_mobile_csharp/blob/main/doxygen_csharp.png)
 
 
 ### Projetos para testes e experimentação com design/prototipação:
