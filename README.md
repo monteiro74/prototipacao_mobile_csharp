@@ -26,11 +26,11 @@ Licença Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0
 
 | Wireframe  | Mockup | Prototipo |
 | ------------- | ------------- | ------- |
-| Mostra estrutura de blocos, pode ser considerado um esqueleto do projeto | Apresenta cores, estipo visual e tipografia de fontes | Mais perto da versão final |
+| Mostra estrutura de blocos, pode ser considerado um esqueleto do projeto | Apresenta cores, estilo visual e tipografia de fontes | Mais perto da versão final |
 | Desenho de interface básico  | Testes de responsividade, tem conteúdo estático | Permite simular interação com o usuário, pois pode conter dados |
 | Barato  | Melhorar usuário dar um feedback | Pode ter partes clicáveis e mostrar dados fictícios |
 | Criado em curto espaço de tempo | Pode levar mais tempo para ficar pronto | Demorar mais tempo devido a complexidade de interações dentro do protótipo |
-| Pode ser uma desenho no papel, representação de baixa qualidade e fidelidade  | Apresenta especto visual perto do final | Poderá ser reaproveitado |
+| Pode ser um desenho no papel, representação de baixa qualidade e fidelidade  | Apresenta especto visual perto do final | Poderá ser reaproveitado |
 | $  | $$ | $$$ |
 | Exemplos de softwares: Balsamiq, Adobe XD, Evolus, UXpin  | Exemplos de software: InVision, Moqups, Photoshop, Evolus | Exemplos de softwares: FlutterFlow, Mockplus, Adobe XD, Android Studio, Embarcadero Delphi, MS Xamarin |
 
